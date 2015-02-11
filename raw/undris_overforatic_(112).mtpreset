@@ -1,0 +1,757 @@
+MicroTonicPresetV3: {
+	FillRate = 2.4603664262854
+	MastVol = 0
+	Name = "Undris Overforatic (112)"
+	Pattern = a
+	StepRate = 1/16
+	Swing = 3.7313634581237
+	Tempo = 112
+	Mutes: { Off, Off, Off, Off, Off, Off, Off, Off }
+	DrumPatches: {
+		1: {
+			DistAmt = 30.780416140407
+			EQFreq = 112.43587146699
+			EQGain = -36.134044767724
+			Level = 15.513
+			Mix = 100
+			ModAmt = 92.605850107775
+			ModMode = Decay
+			ModRate = 10
+			ModVel = 15.812249558014
+			NEnvAtk = 0.08773808389386
+			NEnvDcy = 20.564546738788
+			NEnvMod = Linear
+			NFilFrq = 14819.061381246
+			NFilMod = LP
+			NFilQ = 0.1
+			NStereo = On
+			NVel = 13.360446336264
+			Name = "BD Undris 4"
+			OscAtk = 0
+			OscDcy = 15.439494850747
+			OscFreq = 47.875722335338
+			OscVel = 0
+			OscWave = Triangle
+			Output = A
+			Pan = 0.78053673017999
+		}
+		2: {
+			DistAmt = 4.990316198421
+			EQFreq = 27.72737450433
+			EQGain = 12.55198442261
+			Level = 13.43760784872
+			Mix = 78.894664660538
+			ModAmt = 92.24195384338
+			ModMode = Decay
+			ModRate = 61.760149886933
+			ModVel = 54.99951607086
+			NEnvAtk = 111.32841851235
+			NEnvDcy = 500.1761095574
+			NEnvMod = Exp
+			NFilFrq = 39.207087912392
+			NFilMod = LP
+			NFilQ = 1.8160394781664
+			NStereo = On
+			NVel = 95.575787235752
+			Name = "BD Undris 8"
+			OscAtk = 0.2749718604234
+			OscDcy = 773.19352597042
+			OscFreq = 33.28958565194
+			OscVel = 76.943312633458
+			OscWave = Triangle
+			Output = A
+			Pan = -7.4844464632
+		}
+		3: {
+			DistAmt = 5.609643678882
+			EQFreq = 15558.358598766
+			EQGain = 26.497458096355
+			Level = -29.48441993381
+			Mix = 0
+			ModAmt = -9.2299455935097
+			ModMode = Decay
+			ModRate = 730.91313879147
+			ModVel = 19.302942544648
+			NEnvAtk = 298.17167992756
+			NEnvDcy = 138.88979049859
+			NEnvMod = Linear
+			NFilFrq = 917.48711503652
+			NFilMod = BP
+			NFilQ = 263.70833407699
+			NStereo = On
+			NVel = 70.42101518793
+			Name = "FX Undris 1"
+			OscAtk = 0.003884861191461
+			OscDcy = 834.38772281157
+			OscFreq = 183.75444769707
+			OscVel = 6.257788843134
+			OscWave = Saw
+			Output = A
+			Pan = -7.318396877756
+		}
+		4: {
+			DistAmt = 0
+			EQFreq = 80.12953851328
+			EQGain = 40
+			Level = -12.333851301594
+			Mix = 49.327857488582
+			ModAmt = -96
+			ModMode = Decay
+			ModRate = 3946.181852168
+			ModVel = 0
+			NEnvAtk = 0
+			NEnvDcy = 10000
+			NEnvMod = Exp
+			NFilFrq = 200.2445015725
+			NFilMod = BP
+			NFilQ = 0.1
+			NStereo = On
+			NVel = 0
+			Name = "FX Undris 3"
+			OscAtk = 0.21290306387749
+			OscDcy = 7993.819464535
+			OscFreq = 11417.923093281
+			OscVel = 0
+			OscWave = Saw
+			Output = A
+			Pan = -26.084117219454
+		}
+		5: {
+			DistAmt = 47.304084070043
+			EQFreq = 219.30761576658
+			EQGain = 2.707727379086
+			Level = -11.036716922494
+			Mix = 100
+			ModAmt = -48
+			ModMode = Sine
+			ModRate = 249.30083981849
+			ModVel = 27.706555151878
+			NEnvAtk = 35.982125874736
+			NEnvDcy = 10000
+			NEnvMod = Mod
+			NFilFrq = 20
+			NFilMod = HP
+			NFilQ = 0.55591595436772
+			NStereo = On
+			NVel = 150.29745685505
+			Name = "SD Undris 5"
+			OscAtk = 0
+			OscDcy = 64.401590606763
+			OscFreq = 20000
+			OscVel = 200
+			OscWave = Triangle
+			Output = A
+			Pan = 81.76680970182
+		}
+		6: {
+			DistAmt = 36.052680744312
+			EQFreq = 122.7324708285
+			EQGain = 4.46118177309
+			Level = 6.3936706725788
+			Mix = 64.913183065504
+			ModAmt = 13.334566205405
+			ModMode = Decay
+			ModRate = 157.25398394653
+			ModVel = 64.062203965426
+			NEnvAtk = 0.41140638042109
+			NEnvDcy = 44.291848699005
+			NEnvMod = Linear
+			NFilFrq = 4831.1053844304
+			NFilMod = LP
+			NFilQ = 1.6833632714053
+			NStereo = Off
+			NVel = 74.50290557463
+			Name = "Zap Undris 2"
+			OscAtk = 1.2628581180161
+			OscDcy = 95.875143129724
+			OscFreq = 86.168109922976
+			OscVel = 64.598706980716
+			OscWave = Sine
+			Output = A
+			Pan = 11.26743457721
+		}
+		7: {
+			DistAmt = 0
+			EQFreq = 1400.4079453169
+			EQGain = 11.396652288102
+			Level = 4.58999526013
+			Mix = 57.672588421843
+			ModAmt = 13.320044145012
+			ModMode = Sine
+			ModRate = 38.231652212484
+			ModVel = 26.286436898718
+			NEnvAtk = 0
+			NEnvDcy = 86.444234541261
+			NEnvMod = Exp
+			NFilFrq = 1217.781881491
+			NFilMod = BP
+			NFilQ = 55.902983117656
+			NStereo = Off
+			NVel = 79.283571206942
+			Name = "CH Undris 7"
+			OscAtk = 0
+			OscDcy = 33.345420608811
+			OscFreq = 7261.3760115024
+			OscVel = 95.176636355176
+			OscWave = Sine
+			Output = A
+			Pan = -42.840489158064
+		}
+		8: {
+			DistAmt = 45.789093380649
+			EQFreq = 2096.471948014
+			EQGain = -18.444242235538
+			Level = 4.9930233940154
+			Mix = 87.970579909149
+			ModAmt = 3.6480827006007
+			ModMode = Sine
+			ModRate = 0.38192030023209
+			ModVel = 22.897181191774
+			NEnvAtk = 1.4693644482412
+			NEnvDcy = 3282.2211759525
+			NEnvMod = Exp
+			NFilFrq = 804.69352885882
+			NFilMod = BP
+			NFilQ = 172.60494738015
+			NStereo = On
+			NVel = 44.891488765496
+			Name = "Undris 6"
+			OscAtk = 1.1551660424533
+			OscDcy = 603.81390613185
+			OscFreq = 58.147780596288
+			OscVel = 59.847495994418
+			OscWave = Sine
+			Output = A
+			Pan = 22.25182598119
+		}
+	}
+	Patterns: {
+		a: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ----------------
+				Triggers = ----#-------#-##
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = ----------------
+			}
+			4: {
+				Accents = #-----#---------
+				Fills = ----------------
+				Triggers = #--------------#
+			}
+			5: {
+				Accents = ----#-----#---#-
+				Fills = ----##----------
+				Triggers = #-#-#--#------#-
+			}
+			6: {
+				Accents = ---#----#-------
+				Fills = ----------------
+				Triggers = ----#----#--##--
+			}
+			7: {
+				Accents = #-#---###-##--##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = ----------------
+			}
+		}
+		b: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ----------------
+				Triggers = ----#-------#---
+			}
+			2: {
+				Accents = #----##-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = ----------------
+				Fills = ----------#-----
+				Triggers = ----------------
+			}
+			4: {
+				Accents = #-##--------#---
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = --#-------#---#-
+				Fills = ----#-------#---
+				Triggers = #-#-#---------#-
+			}
+			6: {
+				Accents = ----#---#-------
+				Fills = ----------------
+				Triggers = --#-##--##--##--
+			}
+			7: {
+				Accents = --#---#-#-#-#-#-
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = ----------------
+				Fills = -------#--------
+				Triggers = ----------------
+			}
+		}
+		c: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ----------------
+				Triggers = ----#-------#-#-
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----#-----##--
+			}
+			3: {
+				Accents = --#-------------
+				Fills = ----------------
+				Triggers = ----------#-----
+			}
+			4: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = #------------#--
+			}
+			5: {
+				Accents = ---------#----#-
+				Fills = -#--#-------#---
+				Triggers = #-#-#--#------#-
+			}
+			6: {
+				Accents = ---#--------#---
+				Fills = -#--------------
+				Triggers = ------------#-#-
+			}
+			7: {
+				Accents = #-##--###-#-#-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = ----#--#--------
+				Fills = -------#--------
+				Triggers = ---#---#-------#
+			}
+		}
+		d: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = -------#----#--#
+				Triggers = ----#-------#---
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = --#-------------
+			}
+			4: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = --------------##
+				Fills = ------------#---
+				Triggers = #---#--#------#-
+			}
+			6: {
+				Accents = #---#---#-------
+				Fills = ----------------
+				Triggers = #--#-----#-##---
+			}
+			7: {
+				Accents = #-#-#-##--#-#-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = #------#--#-----
+				Fills = ----------------
+				Triggers = ----#--#--------
+			}
+		}
+		e: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ---------------#
+				Triggers = ----#-------##-#
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = --#---#-------#-
+				Fills = ----------------
+				Triggers = ----------#---#-
+			}
+			4: {
+				Accents = #---------------
+				Fills = --------#-------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = --#-#-----#---#-
+				Fills = ----------------
+				Triggers = #-#-#--#------#-
+			}
+			6: {
+				Accents = #--#----#------#
+				Fills = ----------#-----
+				Triggers = ----#-#-----#-##
+			}
+			7: {
+				Accents = --#-#-#---#-#-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = -------#--------
+				Fills = ----------------
+				Triggers = -------#-------#
+			}
+		}
+		f: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ---------------#
+				Triggers = ----#-------#-#-
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = ----------------
+			}
+			4: {
+				Accents = #-----#-----#---
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = --------------#-
+				Fills = ----#-----------
+				Triggers = #-#-#--#------#-
+			}
+			6: {
+				Accents = --#-#---#-------
+				Fills = ----------------
+				Triggers = -----##-#------#
+			}
+			7: {
+				Accents = #-#---#-#-###-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = -------#--------
+			}
+		}
+		g: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ------------#---
+				Triggers = ----#-------##--
+			}
+			2: {
+				Accents = #----##-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = --------------#-
+			}
+			4: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = --#-#---------#-
+				Fills = ----#-------#---
+				Triggers = #---#---------#-
+			}
+			6: {
+				Accents = ----#-----------
+				Fills = ----------------
+				Triggers = -------#----#--#
+			}
+			7: {
+				Accents = #-###-#-#-###-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = ----#-----------
+				Fills = ----------------
+				Triggers = -----#-#----#---
+			}
+		}
+		h: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ------------#--#
+				Triggers = ----#-------#--#
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = --#---#---#-----
+			}
+			4: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = ----#---------#-
+				Fills = ----------------
+				Triggers = #---#--#------#-
+			}
+			6: {
+				Accents = ----------##----
+				Fills = -------#--------
+				Triggers = #---#---##--#---
+			}
+			7: {
+				Accents = #-#---###-###-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = #-----------#---
+				Fills = -------#--------
+				Triggers = #---------------
+			}
+		}
+		i: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ------------#---
+				Triggers = ----#-------#-#-
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----##--#-##--
+			}
+			3: {
+				Accents = --#-------------
+				Fills = ----------------
+				Triggers = ----------#---#-
+			}
+			4: {
+				Accents = #-#-------------
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = ------#-------#-
+				Fills = ----------------
+				Triggers = #---#--#------#-
+			}
+			6: {
+				Accents = ----#-#-#---#---
+				Fills = ----------------
+				Triggers = --#-#-------#-##
+			}
+			7: {
+				Accents = --###-#-#-##--##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = -------#--------
+				Fills = ----------------
+				Triggers = ----#--#--------
+			}
+		}
+		j: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = -------#----#---
+				Triggers = ----#-------#-#-
+			}
+			2: {
+				Accents = #----##-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = ------#---------
+			}
+			4: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = --#-#---------#-
+				Fills = ----------------
+				Triggers = #---#--#------#-
+			}
+			6: {
+				Accents = ---##------#----
+				Fills = ----------------
+				Triggers = ------#---------
+			}
+			7: {
+				Accents = --###-###-###-#-
+				Fills = ----------------
+				Triggers = #############-##
+			}
+			8: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = -------#--------
+			}
+		}
+		k: {
+			Chained = false
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ----------------
+				Triggers = ----#-------#-##
+			}
+			2: {
+				Accents = #-----#-#---#---
+				Fills = ----------------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = --#-------------
+				Fills = ----------------
+				Triggers = ----------#-----
+			}
+			4: {
+				Accents = #-----------#---
+				Fills = ----------------
+				Triggers = #--------------#
+			}
+			5: {
+				Accents = --#---------#-#-
+				Fills = ------------#---
+				Triggers = #-#-#--#------#-
+			}
+			6: {
+				Accents = #---#-#---------
+				Fills = ----------------
+				Triggers = ----#---#-##----
+			}
+			7: {
+				Accents = #-#-#-#-#-###-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = ----------------
+				Fills = ----------------
+				Triggers = ---#---#----#---
+			}
+		}
+		l: {
+			Length = 16
+			1: {
+				Accents = ----#-------#---
+				Fills = ----------------
+				Triggers = ----#-------#-##
+			}
+			2: {
+				Accents = #-----#-#-------
+				Fills = ----#-----------
+				Triggers = #-----#---#-##--
+			}
+			3: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = ----------------
+			}
+			4: {
+				Accents = #---------------
+				Fills = ----------------
+				Triggers = #---------------
+			}
+			5: {
+				Accents = --#-----------#-
+				Fills = ------------#---
+				Triggers = #---#--#------#-
+			}
+			6: {
+				Accents = ---#--------#---
+				Fills = ----------------
+				Triggers = -------#-#------
+			}
+			7: {
+				Accents = --#---#-#-#-#-##
+				Fills = ----------------
+				Triggers = ################
+			}
+			8: {
+				Accents = -------#--------
+				Fills = -------#--------
+				Triggers = -------#--------
+			}
+		}
+	}
+}

@@ -1,0 +1,772 @@
+MicrotonicPresetV3: {
+	Tempo: 113.00000000 bpm
+	Pattern: a
+	StepRate: 1/16
+	Swing: 13.38072300%
+	FillRate: 3.42263341x
+	MastVol: 0.00000000 dB
+	Mutes: { Off, Off, Off, Off, Off, Off, Off, Off }
+	DrumPatches: {
+		1: {
+			Name: "BD Karyocarp 1"
+			Modified: false
+			OscWave: Sine
+			OscFreq: 40.12149048 Hz
+			OscAtk: 0.00000000 ms
+			OscDcy: 1532.47607422 ms
+			ModMode: Decay
+			ModRate: 213.01937611 ms
+			ModAmt: +31.54021212 sm
+			NFilMod: BP
+			NFilFrq: 811.40838623 Hz
+			NFilQ: 207.21342468
+			NStereo: On
+			NEnvMod: Exp
+			NEnvAtk: 0.26975846 ms
+			NEnvDcy: 10000.00000000 ms
+			Mix: 100.00000000 / 0.00000000
+			DistAmt: 20.20614243
+			EQFreq: 6504.68652344 Hz
+			EQGain: -37.14149857 dB
+			Level: +3.97166751 dB
+			Pan: +8.47190857
+			Output: A
+			Choke: Off
+			OscVel: 0.00000000%
+			NVel: 0.00000000%
+			ModVel: 0.00000000%
+		}
+		2: {
+			Name: "Fuzz Karyocarp 4"
+			Modified: false
+			OscWave: Sine
+			OscFreq: 181.99517822 Hz
+			OscAtk: 0.00000000 ms
+			OscDcy: 70.28343964 ms
+			ModMode: Decay
+			ModRate: 242.06143608 ms
+			ModAmt: -2.73123771 sm
+			NFilMod: LP
+			NFilFrq: 72.38871765 Hz
+			NFilQ: 117.08725739
+			NStereo: On
+			NEnvMod: Exp
+			NEnvAtk: 11.83158217 ms
+			NEnvDcy: 797.02767760 ms
+			Mix: 64.54902887 / 35.45097113
+			DistAmt: 35.26841354
+			EQFreq: 97.19688416 Hz
+			EQGain: -15.72985077 dB
+			Level: -0.05087563 dB
+			Pan: -3.03618622
+			Output: A
+			Choke: Off
+			OscVel: 86.13252258%
+			NVel: 38.65024185%
+			ModVel: 41.64047623%
+		}
+		3: {
+			Name: "FX Karyocarp 2"
+			Modified: false
+			OscWave: Sine
+			OscFreq: 51.60043716 Hz
+			OscAtk: 0.00000000 ms
+			OscDcy: 10.00000000 ms
+			ModMode: Sine
+			ModRate: 0 Hz
+			ModAmt: -48.00000000 sm
+			NFilMod: LP
+			NFilFrq: 30.01890182 Hz
+			NFilQ: 4.94346189
+			NStereo: Off
+			NEnvMod: Linear
+			NEnvAtk: 383.34904509 ms
+			NEnvDcy: 6.66666667 ms
+			Mix: 100.00000000 / 0.00000000
+			DistAmt: 27.40563965
+			EQFreq: 37.42117310 Hz
+			EQGain: -12.07399559 dB
+			Level: +5.00982829 dB
+			Pan: -100.00000000
+			Output: A
+			Choke: Off
+			OscVel: 200.00000000%
+			NVel: 65.61844635%
+			ModVel: 200.00000000%
+		}
+		4: {
+			Name: "Karyocarp 5"
+			Modified: false
+			OscWave: Triangle
+			OscFreq: 78.93859863 Hz
+			OscAtk: 0.86468261 ms
+			OscDcy: 66.41007996 ms
+			ModMode: Decay
+			ModRate: 10.00000000 ms
+			ModAmt: +27.10520532 sm
+			NFilMod: HP
+			NFilFrq: 13766.01562500 Hz
+			NFilQ: 0.68971366
+			NStereo: Off
+			NEnvMod: Linear
+			NEnvAtk: 0.00000000 ms
+			NEnvDcy: 75.61278901 ms
+			Mix: 87.08707541 / 12.91292459
+			DistAmt: 27.92054176
+			EQFreq: 1577.75622559 Hz
+			EQGain: +40.00000000 dB
+			Level: +5.00982829 dB
+			Pan: +17.14168549
+			Output: A
+			Choke: Off
+			OscVel: 0.00000000%
+			NVel: 0.00000000%
+			ModVel: 0.00000000%
+		}
+		5: {
+			Name: "SD Karyocarp 3"
+			Modified: false
+			OscWave: Triangle
+			OscFreq: 383.78088379 Hz
+			OscAtk: 8.02178180 ms
+			OscDcy: 190.48764038 ms
+			ModMode: Noise
+			ModRate: 32.13900025 Hz
+			ModAmt: +0.36376127 sm
+			NFilMod: LP
+			NFilFrq: 6793.37597656 Hz
+			NFilQ: 2.58905888
+			NStereo: Off
+			NEnvMod: Mod
+			NEnvAtk: 0.33535636 ms
+			NEnvDcy: 87.18199975 ms
+			Mix: 24.11686182 / 75.88313818
+			DistAmt: 26.66217995
+			EQFreq: 1195.46252441 Hz
+			EQGain: +2.53594971 dB
+			Level: -6.09192162 dB
+			Pan: +4.20149231
+			Output: A
+			Choke: Off
+			OscVel: 100.80036163%
+			NVel: 60.92295074%
+			ModVel: 88.78981018%
+		}
+		6: {
+			Name: "Karyocarp 6"
+			Modified: false
+			OscWave: Sine
+			OscFreq: 1216.15307617 Hz
+			OscAtk: 0.94115297 ms
+			OscDcy: 235.21618652 ms
+			ModMode: Decay
+			ModRate: 219.05659949 ms
+			ModAmt: +14.48743127 sm
+			NFilMod: BP
+			NFilFrq: 1681.16259766 Hz
+			NFilQ: 0.49002472
+			NStereo: Off
+			NEnvMod: Linear
+			NEnvAtk: 2.89939522 ms
+			NEnvDcy: 123.62025011 ms
+			Mix: 37.06672192 / 62.93327808
+			DistAmt: 14.45027733
+			EQFreq: 1105.36376953 Hz
+			EQGain: +3.66247177 dB
+			Level: +4.14084001 dB
+			Pan: -3.10474396
+			Output: A
+			Choke: Off
+			OscVel: 77.22419739%
+			NVel: 27.68697357%
+			ModVel: 57.15555573%
+		}
+		7: {
+			Name: "CY Karyocarp 8"
+			Modified: false
+			OscWave: Saw
+			OscFreq: 1926.39916992 Hz
+			OscAtk: 4.10736344 ms
+			OscDcy: 181.60820007 ms
+			ModMode: Noise
+			ModRate: 3032.04899799 Hz
+			ModAmt: +22.97342248 sm
+			NFilMod: HP
+			NFilFrq: 359.49243164 Hz
+			NFilQ: 885.57678223
+			NStereo: On
+			NEnvMod: Exp
+			NEnvAtk: 0.37169845 ms
+			NEnvDcy: 1027.44354939 ms
+			Mix: 63.17766607 / 36.82233393
+			DistAmt: 18.87931824
+			EQFreq: 4384.54394531 Hz
+			EQGain: +11.54996872 dB
+			Level: -23.40987196 dB
+			Pan: -1.80374146
+			Output: A
+			Choke: Off
+			OscVel: 13.02438259%
+			NVel: 28.92450905%
+			ModVel: 35.89535904%
+		}
+		8: {
+			Name: "OH Karyocarp 7"
+			Modified: false
+			OscWave: Saw
+			OscFreq: 20000.00195312 Hz
+			OscAtk: 0.74619006 ms
+			OscDcy: 576.16369629 ms
+			ModMode: Sine
+			ModRate: 1951.67426491 Hz
+			ModAmt: +6.57165748 sm
+			NFilMod: HP
+			NFilFrq: 2918.78393555 Hz
+			NFilQ: 6.82788420
+			NStereo: On
+			NEnvMod: Exp
+			NEnvAtk: 0.00000000 ms
+			NEnvDcy: 705.32411317 ms
+			Mix: 27.35817432 / 72.64182568
+			DistAmt: 2.81532240
+			EQFreq: 20000.00195312 Hz
+			EQGain: +38.99382019 dB
+			Level: -26.29797524 dB
+			Pan: +23.32799530
+			Output: A
+			Choke: Off
+			OscVel: 1.37620962%
+			NVel: 19.43711662%
+			ModVel: 0.00000000%
+		}
+	}
+	Patterns: {
+		a: {
+			Length: 8
+			Chained: false
+			1: {
+				Triggers: #---#---#--#----
+				Accents:  #---------------
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: #--#----#--##--#
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: -----------#----
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: #--#---#-#-##---
+				Accents:  ----------------
+				Fills:    ---------------#
+			}
+			6: {
+				Triggers: ----#-------#-#-
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: #-#--#---#-####-
+				Accents:  ----#---------##
+				Fills:    ----------------
+			}
+			8: {
+				Triggers: --#------##-----
+				Accents:  --#---#-------#-
+				Fills:    ----------------
+			}
+		}
+		b: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#-----------
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: ##-------#-#-###
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: -----------#--#-
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#---
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: ----#--#-##-####
+				Accents:  --------------##
+				Fills:    ----------#-----
+			}
+			6: {
+				Triggers: ----#--#----#-##
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: ----##---#-#####
+				Accents:  -------#--###-##
+				Fills:    ----------------
+			}
+			8: {
+				Triggers: --#-----------#-
+				Accents:  --#-----------#-
+				Fills:    ------#---------
+			}
+		}
+		c: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#---#-------
+				Accents:  ----#-----------
+				Fills:    ---------------#
+			}
+			2: {
+				Triggers: -#-#---#-----##-
+				Accents:  ------#-#-------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: #---------#---#-
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: ---------##----#
+				Accents:  --#-------------
+				Fills:    -#--------------
+			}
+			6: {
+				Triggers: ----#-------#-#-
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: -##--#--###-####
+				Accents:  ---##--#--------
+				Fills:    -----------#----
+			}
+			8: {
+				Triggers: ------#---#---#-
+				Accents:  --#-----#-#---#-
+				Fills:    ----------------
+			}
+		}
+		d: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#---#---#---
+				Accents:  #-----------#---
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: ---#-------#--##
+				Accents:  --------#-------
+				Fills:    ------------#---
+			}
+			3: {
+				Triggers: -------------#--
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: #----###-----#-#
+				Accents:  ----------------
+				Fills:    --------------#-
+			}
+			6: {
+				Triggers: ---#--------#---
+				Accents:  ----#-----------
+				Fills:    -------------#--
+			}
+			7: {
+				Triggers: ----#--#-##-####
+				Accents:  -------#--##---#
+				Fills:    ----------------
+			}
+			8: {
+				Triggers: ------#-------#-
+				Accents:  --#-------------
+				Fills:    ----------------
+			}
+		}
+		e: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#-------#---
+				Accents:  #-------#-------
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: #--#----##---###
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: -----------#----
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: -------#-##----#
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			6: {
+				Triggers: ----#-------#---
+				Accents:  ------------#---
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: -------#-#-#####
+				Accents:  -------#------##
+				Fills:    ------------#---
+			}
+			8: {
+				Triggers: --#---#---#---#-
+				Accents:  --#-------#---#-
+				Fills:    ----------------
+			}
+		}
+		f: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#---#---#---
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: ---#----#--#-##-
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: ----------##-#--
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#----------#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: ---#---#----#---
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			6: {
+				Triggers: ------------#---
+				Accents:  ----#-------#---
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: --##---#-##-#-##
+				Accents:  --#-#------#--#-
+				Fills:    ------------#---
+			}
+			8: {
+				Triggers: --#------#----#-
+				Accents:  --#------------#
+				Fills:    ----------------
+			}
+		}
+		g: {
+			Length: 8
+			Chained: false
+			1: {
+				Triggers: #---#---#---#---
+				Accents:  #---#---------#-
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: ---#---------#--
+				Accents:  #-------#-------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: -----------#-#--
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: ---#------##----
+				Accents:  -----#----------
+				Fills:    ----#-----------
+			}
+			6: {
+				Triggers: ------------#---
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: --#------#######
+				Accents:  --##---#--------
+				Fills:    ----------------
+			}
+			8: {
+				Triggers: ----------#---##
+				Accents:  ------#---#-----
+				Fills:    ----------------
+			}
+		}
+		h: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#---#---#---
+				Accents:  #---#-----------
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: #-------#----#--
+				Accents:  --------#---#---
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: #------------#--
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: #--#--#-#--##---
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			6: {
+				Triggers: ----#-------#---
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: --#-#-#--#-#-###
+				Accents:  ----#-----#---#-
+				Fills:    -----------#----
+			}
+			8: {
+				Triggers: --#---#--##---#-
+				Accents:  ----------#---#-
+				Fills:    ----------------
+			}
+		}
+		i: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#---#---#---
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: ##------##-#-##-
+				Accents:  --------#-------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: #----------#-#--
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: -#---#-------#-#
+				Accents:  ---#--------#-#-
+				Fills:    --------------#-
+			}
+			6: {
+				Triggers: ----#-------#-#-
+				Accents:  ------------#---
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: ---##----#-#####
+				Accents:  ----------##--##
+				Fills:    ----------------
+			}
+			8: {
+				Triggers: ------#--##---#-
+				Accents:  --#---#---#---#-
+				Fills:    -------------#--
+			}
+		}
+		j: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#---#---#---
+				Accents:  #-------------#-
+				Fills:    -------#--------
+			}
+			2: {
+				Triggers: ##-#-------#-#--
+				Accents:  --------#--#----
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: -----------#-#--
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#----------#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: ---#-#---#------
+				Accents:  --#-------------
+				Fills:    ----------------
+			}
+			6: {
+				Triggers: ------------#---
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: --#--#-#-#--#--#
+				Accents:  ---##-----------
+				Fills:    ----------------
+			}
+			8: {
+				Triggers: --#-------------
+				Accents:  --#-----------#-
+				Fills:    ----------------
+			}
+		}
+		k: {
+			Length: 16
+			Chained: false
+			1: {
+				Triggers: #---#---#-------
+				Accents:  ------------#-#-
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: #-------##-#--#-
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			3: {
+				Triggers: -----------#--#-
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: ----#-------#--#
+				Accents:  ----#-------#--#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: -------###-##-#-
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			6: {
+				Triggers: --------------#-
+				Accents:  ----#-----------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: --------#-##--##
+				Accents:  ------#------#-#
+				Fills:    ----------------
+			}
+			8: {
+				Triggers: --#---#-------#-
+				Accents:  ------#-------#-
+				Fills:    ----------------
+			}
+		}
+		l: {
+			Length: 16
+			1: {
+				Triggers: #---#---#--##---
+				Accents:  #---------------
+				Fills:    ----------------
+			}
+			2: {
+				Triggers: -#----#----#-##-
+				Accents:  -------------#--
+				Fills:    ------------#---
+			}
+			3: {
+				Triggers: -----------#-#--
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			4: {
+				Triggers: #---#-------#--#
+				Accents:  ----#----------#
+				Fills:    ----------------
+			}
+			5: {
+				Triggers: #----#--#--##---
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			6: {
+				Triggers: ------------#-#-
+				Accents:  ----------------
+				Fills:    ----------------
+			}
+			7: {
+				Triggers: -------#-####-##
+				Accents:  --##---#---#--#-
+				Fills:    ------------#---
+			}
+			8: {
+				Triggers: --#---##------#-
+				Accents:  --#---#---------
+				Fills:    ----------------
+			}
+		}
+	}
+}
