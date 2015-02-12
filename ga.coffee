@@ -18,10 +18,10 @@ Fs.readFile __dirname+"/nets/4tracks64.json", (err, ff)->
 
   # rand func
   genebad = (max)->
-    pos = [0,0.5,1]
+    pos = [0, 0, 0.5, 1] # increase the possibility of 0s
     res = []
     for [0..(max-1)]
-      res.push pos[Math.floor(Math.random()*3)]
+      res.push pos[Math.floor(Math.random()*4)]
     res
 
   # render
@@ -42,7 +42,7 @@ Fs.readFile __dirname+"/nets/4tracks64.json", (err, ff)->
   # rnd mutator
   mutate = (ori)->
     sixtyfour = ori.slice()
-    scales = [4,8,16,32]
+    scales = [2,4,8,16,32]
     scale = scales[floor(rnd()*4)]
     mutation = genebad(scale)
     sixtyfour = sixtyfour.concat mutation
@@ -59,15 +59,22 @@ Fs.readFile __dirname+"/nets/4tracks64.json", (err, ff)->
       p = par[floor(rnd()*2)]
       res = res.concat p.slice r, r+8
     res
-    
+
   pop = []
   pop_size = 128
-  chunk = (pop_size/4)
-  max_gen = 50
+
+  elite = (pop_size/4)
+  mutation = (pop_size/8)
+  crossover = (pop_size/2)
+  newb = (pop_size/8)
+
+  max_gen = 10
   generation = 0
 
+  dup = []
   for [0..pop_size-1]
-    pop.push genebad(64)
+    gen = genebad(64)
+    pop.push gen
 
   while generation < max_gen
     scores = []
@@ -80,20 +87,20 @@ Fs.readFile __dirname+"/nets/4tracks64.json", (err, ff)->
     console.log generation, scores[scores.length-1].score
     # new pop
     # keep best chunk
-    newpop = sorted.slice -chunk
+    newpop = sorted.slice -elite
     babies = []
     mutates = []
     newbies = []
     # make chunk random babies
-    for i in [0..(chunk-1)]
-      r1 = floor(rnd()*chunk)
-      r2 = floor(rnd()*chunk)
+    for i in [0..(crossover-1)]
+      r1 = floor(rnd()*elite)
+      r2 = floor(rnd()*elite)
       babies.push infantify newpop[r1], newpop[r2]
     # mutate
-    for i in [0..(chunk-1)]
-      mutates.push mutate newpop[i]
+    for i in [0..(mutation-1)]
+      mutates.push mutate newpop[i%elite]
     # newbs
-    for i in [0..(chunk-1)]
+    for i in [0..(newb-1)]
       newbies.push genebad 64
     # mix
     newpop = newpop.concat babies
@@ -103,5 +110,15 @@ Fs.readFile __dirname+"/nets/4tracks64.json", (err, ff)->
     # nex gen
     pop = newpop
 
-    Sleep.usleep 10000
+    Sleep.usleep 5000
     generation++
+
+  scores = []
+  _.each pop, (line,i) ->
+    scores.push
+      score: fitness line
+      idx: i
+      render: render(line)
+  scores = _.sortBy(scores, 'score').reverse()
+  for i in [0..1]
+    console.log scores[i].render
